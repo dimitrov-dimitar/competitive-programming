@@ -1,5 +1,7 @@
 # https://codeforces.com/problemset/problem/1328/A
 
+import math
+
 t = int(input())
 
 # counter = 0
@@ -14,4 +16,7 @@ for _ in range(t):
 
     if a % b == 0:
         print(0)
-    print(a % b)
+    else:
+        result = math.ceil(a / b)
+        result *= b
+        print(result - a)
