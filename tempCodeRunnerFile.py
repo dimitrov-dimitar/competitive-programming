@@ -1,1 +1,2 @@
-print(dollar_bills)
+print(difference_number)
+# print(diff_num)
