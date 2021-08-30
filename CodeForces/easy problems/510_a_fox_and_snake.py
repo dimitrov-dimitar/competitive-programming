@@ -1,3 +1,5 @@
+# https://codeforces.com/problemset/problem/510/A
+
 n, m = [int(x) for x in input().split()]
 
 counter = 0

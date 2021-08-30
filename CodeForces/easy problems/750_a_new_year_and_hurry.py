@@ -1,3 +1,5 @@
+# https://codeforces.com/problemset/problem/750/A
+
 n, m = [int(x) for x in input().split()]
 
 minutes_counter = 0
