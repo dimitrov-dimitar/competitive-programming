@@ -7,7 +7,10 @@ counter = 0
 list_p = []
 
 
-while n != 0:
-    result = n // a
-    list_p.append(result)
-    n -= result
+for p in pieces:
+    result = n // p
+    for _ in range(result):
+        list_p.append(p)
+
+
+print(list_p)
