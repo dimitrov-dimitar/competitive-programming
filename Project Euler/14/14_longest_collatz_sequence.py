@@ -11,7 +11,7 @@ for n in range(1, 1000000):
             n = n / 2
         else:
             n = 3 * n + 1
-        #print(n, end= " ")
+        # print(n, end= " ")
         sum_counter += 1
         if n == 1:
             break
@@ -20,6 +20,6 @@ for n in range(1, 1000000):
         max_n = m
 
     sum_counter = 0
-    #print()
+    # print()
 
 print(max_n)

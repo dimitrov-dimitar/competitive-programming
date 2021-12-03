@@ -5,10 +5,10 @@ print(n)
 print(len(str(n)))
 
 n = str(n)
-#print(n[0])
+# print(n[0])
 
 for i in range(len(n)):
-    #print(n[i])
+    # print(n[i])
     sum_counter += int(n[i])
 
 print(sum_counter)

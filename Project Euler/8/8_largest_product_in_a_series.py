@@ -20,7 +20,7 @@ while k < 1000:
 
     j += 1
     k += 1
-    product = 1 
+    product = 1
 
 
 print(max_product)

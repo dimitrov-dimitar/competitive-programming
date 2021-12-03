@@ -1,4 +1,4 @@
-positive_inf = float('inf')
+positive_inf = float("inf")
 i = 0
 sum_counter = 0
 prime_position = 0
@@ -10,7 +10,7 @@ while i < positive_inf:
 
     if sum_counter == 2:
         prime_position += 1
-        #print(f"prime position {prime_position} -> {i}")
+        # print(f"prime position {prime_position} -> {i}")
         if prime_position == 10001:
             print(f"position {prime_position} -> {i}")
             break

@@ -1,4 +1,5 @@
 import time
+
 start_time = time.time()
 
 sum_counter = 0
@@ -19,6 +20,6 @@ for i in range(1, 100000):
 print(sum_prime)
 print("Finish")
 
-time = (time.time() - start_time)
+time = time.time() - start_time
 time = int(time)
 print(f"{time // 60}min {time % 60}sec")

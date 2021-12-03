@@ -9,12 +9,12 @@ for i in range(2, 2000000):
         if i % j == 0:
             break
     else:
-        #print(i)              
+        # print(i)
         sum_prime += i
 
 print(sum_prime)
 print("Finish")
 
-time = (time.time() - start_time)
+time = time.time() - start_time
 time = int(time)
 print(f"{time // 60}min {time % 60}sec")

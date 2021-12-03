@@ -1,9 +1,8 @@
-
 array = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
-#array[0][0], array[2][2] = 1, 1
+# array[0][0], array[2][2] = 1, 1
 print(array)
 
-sum_number = 0 
+sum_number = 0
 
 for i in range(3):
     for j in range(3):

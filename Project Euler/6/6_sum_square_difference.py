@@ -5,7 +5,7 @@ square_sum = 0
 for i in range(1, 101):
     sum_square += i
 
-sum_square **=  2
+sum_square **= 2
 
 for j in range(1, 101):
     j **= 2

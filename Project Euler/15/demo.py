@@ -29,9 +29,10 @@ def routes(a, b):
         results[str([a, b - 1])] = part2
     return part1 + part2
 
+
 number = int(input("Enter n : "))
-#print((routes(20, 20)))
+# print((routes(20, 20)))
 print((routes(number, number)))
-#print((results))
+# print((results))
 print((len(results)))
 print(("Time took : ", time.perf_counter() - st))

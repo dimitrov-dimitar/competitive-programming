@@ -1,4 +1,3 @@
-
 row, col = (21, 21)
 
 array = [[0] * col] * row
@@ -8,4 +7,4 @@ for row in array:
     print(row)
 
 print(sum(row))
-#print(sum(col))
+# print(sum(col))
