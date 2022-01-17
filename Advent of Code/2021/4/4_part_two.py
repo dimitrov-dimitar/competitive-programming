@@ -1,4 +1,4 @@
-# Part One
+# Part Two
 
 
 def bingo(grid):
@@ -13,7 +13,7 @@ def bingo(grid):
 
 matrix = []
 
-with open("input") as f:
+with open("input2") as f:
     for row in f:
         row = row.rstrip('\n')
         matrix.append(row)
@@ -52,15 +52,12 @@ while True:
                 # print(number)
                 total = 0
                 sum_numbers = [[total := total + x for x in row if type(x) != str] for row in grid]
-                print(total * number)
-                break_var = True
+                result = total * number
+                print(result)
                 break
 
             n += 5
             k += 5
-
-
-# Part Two
 
 
 

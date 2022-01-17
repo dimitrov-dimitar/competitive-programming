@@ -36,7 +36,7 @@ epsilon_rate_decimal = int(epsilon_rate, 2)
 print(gama_rate_decimal * epsilon_rate_decimal)
 
 
-# Part One
+# Part Two
 list_ones = []
 list_zeroes = []
 counter = 0
@@ -44,7 +44,7 @@ original_matrix = matrix
 
 while len(matrix) != 1:
     for row in matrix:
-        if row[counter] == '0':
+        if row[counter] == "0":
             list_zeroes.append(row)
         else:
             list_ones.append(row)
@@ -74,7 +74,7 @@ matrix = original_matrix
 
 while len(matrix) != 1:
     for row in matrix:
-        if row[counter] == '0':
+        if row[counter] == "0":
             list_zeroes.append(row)
         else:
             list_ones.append(row)
