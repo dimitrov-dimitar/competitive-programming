@@ -200,7 +200,7 @@ puzzle_input = [
     1934,
     1830,
     1442,
-    1224
+    1224,
 ]
 is_true = False
 

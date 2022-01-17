@@ -3,11 +3,11 @@
 
 def bingo(grid):
     for row in grid:
-        if all([element == 'X' for element in row]):
+        if all([element == "X" for element in row]):
             return True
     for num in range(len(grid[0])):
         column = [row[num] for row in grid]
-        if all([element == 'X' for element in column]):
+        if all([element == "X" for element in column]):
             return True
 
 
@@ -15,7 +15,7 @@ matrix = []
 
 with open("input2") as f:
     for row in f:
-        row = row.rstrip('\n')
+        row = row.rstrip("\n")
         matrix.append(row)
 
 _, rest = (matrix[0], matrix[1:])
@@ -44,14 +44,16 @@ while True:
             for row in range(5):
                 for el in range(5):
                     if grid[row][el] == number:
-                        grid[row][el] = 'X'
+                        grid[row][el] = "X"
 
             if bingo(grid):
                 # print(original_grid)
                 # print(grid)
                 # print(number)
                 total = 0
-                sum_numbers = [[total := total + x for x in row if type(x) != str] for row in grid]
+                sum_numbers = [
+                    [total := total + x for x in row if type(x) != str] for row in grid
+                ]
                 result = total * number
                 print(result)
                 break
@@ -60,5 +62,4 @@ while True:
             k += 5
 
 
-
-print('done')
+print("done")

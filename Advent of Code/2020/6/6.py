@@ -1,6 +1,6 @@
 matrix = []
 
-with open('input') as f:
+with open("input") as f:
     for row in f:
         row_matrix = [x for x in row.split()]
         matrix.append(row_matrix)

@@ -1,8 +1,8 @@
 matrix = []
 
-with open('input') as f:
+with open("input") as f:
     for row in f:
-        row_matrix = [x for x in row if x != '\n']
+        row_matrix = [x for x in row if x != "\n"]
         row_matrix *= 1000
         matrix.append(row_matrix)
 
@@ -17,7 +17,7 @@ counter_1 = 0
 while True:
     if i == len(matrix):
         break
-    if matrix[i][j] == '#':
+    if matrix[i][j] == "#":
         counter_1 += 1
     i += 1
     j += 3
@@ -26,6 +26,7 @@ print(counter_1)
 
 
 # Part Two
+
 
 def boundary(i, j):
     if i >= len(matrix):
@@ -36,7 +37,7 @@ def solve(right, down, i=0, j=0, counter=0):
     while True:
         if boundary(i, j):
             break
-        if matrix[i][j] == '#':
+        if matrix[i][j] == "#":
             counter += 1
         i += down
         j += right

@@ -4,7 +4,7 @@ col_matrix = [x for x in range(8)]
 board_pas = {}
 
 
-with open('input') as f:
+with open("input") as f:
     for row in f:
         matrix.append(row)
 
@@ -19,14 +19,14 @@ for row in matrix:
         if i == "F":
             r = r[: len(r) // 2]
         else:
-            r = r[len(r) // 2:]
+            r = r[len(r) // 2 :]
     # print(r[0])
 
     for i in column_number:
         if i == "L":
             c = c[: len(c) // 2]
         else:
-            c = c[len(c) // 2:]
+            c = c[len(c) // 2 :]
     # print(c[0])
 
     board_pas[row] = r[0] * 8 + c[0]
@@ -42,5 +42,5 @@ for number in sorted_board_pas:
     if number in sorted_board_pas:
         continue
     else:
-        print(f'{number}')
+        print(f"{number}")
         break
