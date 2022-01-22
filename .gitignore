@@ -5,3 +5,7 @@ tempCodeRunnerFile.py
 
 # JPEG
 *.jpg
+
+# Temp Folders and Files 
+/*temp*
+*temp*.py
