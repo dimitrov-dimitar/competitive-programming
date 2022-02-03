@@ -7,10 +7,10 @@ def lucky_numbers(num):
     num = str(num)
     counter = 0
     for ch in num:
-        if ch == '4' or ch == '7':
+        if ch == "4" or ch == "7":
             counter += 1
     if len(num) == counter:
-        return 'YES'
+        return "YES"
 
 
 k = 0
@@ -27,7 +27,7 @@ else:
             while number < n:
                 number += 1
                 if k * number == n:
-                    print('YES')
+                    print("YES")
                     bool_var = False
                     answer_var = True
                     break
@@ -37,4 +37,4 @@ else:
         else:
             continue
     if bool_var:
-        print('NO')
+        print("NO")

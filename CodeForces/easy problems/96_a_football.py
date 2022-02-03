@@ -4,12 +4,12 @@ text = input()
 
 counter_0 = 1
 counter_1 = 1
-same = ''
+same = ""
 true_var = False
 
 
 for char in text:
-    if char == '0':
+    if char == "0":
         counter_0 += 1
     else:
         counter_1 += 1

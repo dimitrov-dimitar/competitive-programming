@@ -8,6 +8,6 @@ counter = 0
 for _ in range(t):
     x = input()
     first_digit = int(x[0])
-    counter = (first_digit - 1) * sum(l_num) + sum(l_num[:len(x)])
+    counter = (first_digit - 1) * sum(l_num) + sum(l_num[: len(x)])
     print(counter)
     counter = 0

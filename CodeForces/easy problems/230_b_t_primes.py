@@ -7,7 +7,7 @@ counter = 0
 
 for number in numbers:
     if number == 1 or number == 2:
-        print('NO')
+        print("NO")
         continue
     for x in range(2, number):
         if counter > 1:
@@ -15,7 +15,7 @@ for number in numbers:
         if number % x == 0:
             counter += 1
     if counter == 1:
-        print('YES')
+        print("YES")
     else:
-        print('NO')
+        print("NO")
     counter = 0

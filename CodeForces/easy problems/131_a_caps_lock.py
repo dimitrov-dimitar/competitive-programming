@@ -21,7 +21,7 @@ def second_rule(string):
         return True
 
 
-new_string = ''
+new_string = ""
 if firs_rule(text) or second_rule(text):
     for ch in text:
         if ch.isupper():

@@ -8,4 +8,4 @@ list_num.sort()
 max_num = list_num[-1]
 
 for num in range(3):
-    print(max_num - list_num[num], end=' ')
+    print(max_num - list_num[num], end=" ")

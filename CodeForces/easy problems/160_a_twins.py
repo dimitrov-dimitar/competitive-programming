@@ -12,7 +12,7 @@ break_var = True
 mine_coins = 0
 
 while True:
-    if n  == 1:
+    if n == 1:
         number_coins = 1
         break
     if break_var:

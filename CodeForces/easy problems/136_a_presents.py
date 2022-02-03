@@ -13,4 +13,4 @@ for count, value in enumerate(friends):
 result = dict(sorted(result.items()))
 
 for v in result.values():
-    print(v, end=' ')
+    print(v, end=" ")

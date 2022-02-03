@@ -27,5 +27,5 @@ while True:
     y -= 1
 
     if not is_prime(x) and not is_prime(y):
-        print(x, y, end=' ')
+        print(x, y, end=" ")
         break

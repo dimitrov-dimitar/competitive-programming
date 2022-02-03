@@ -9,7 +9,7 @@ for x in range(n):
     text = input()
     if text not in names:
         names[text] = 0
-        print('OK')
+        print("OK")
     else:
         names[text] += 1
         print(text + str(names[text]))

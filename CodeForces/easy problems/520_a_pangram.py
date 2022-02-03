@@ -8,6 +8,6 @@ text = input()
 alphabet = set(string.ascii_lowercase)
 
 if set(text.lower()) >= alphabet:
-    print('YES')
+    print("YES")
 else:
-    print('NO')
+    print("NO")

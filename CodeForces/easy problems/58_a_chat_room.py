@@ -2,7 +2,7 @@
 
 s = list(input())
 
-word = ['h', 'e', 'l', 'l', 'o']
+word = ["h", "e", "l", "l", "o"]
 counter = 0
 
 for char in word:
@@ -15,6 +15,6 @@ for char in word:
             break
 
 if counter == 5:
-    print('YES')
+    print("YES")
 else:
-    print('NO')
+    print("NO")

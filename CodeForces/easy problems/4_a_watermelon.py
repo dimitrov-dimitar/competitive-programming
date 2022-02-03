@@ -3,10 +3,10 @@
 weight = int(input())
 
 if weight == 2:
-    print('NO')
+    print("NO")
 elif weight == 4:
-    print('YES')
+    print("YES")
 elif weight % 2 == 0:
-    print('YES')
+    print("YES")
 else:
-    print('NO')
+    print("NO")

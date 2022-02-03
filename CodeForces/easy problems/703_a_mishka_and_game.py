@@ -16,8 +16,8 @@ for _ in range(n):
         c_counter += 1
 
 if m_counter > c_counter:
-    print('Mishka')
+    print("Mishka")
 elif m_counter < c_counter:
-    print('Chris')
+    print("Chris")
 else:
-    print('Friendship is magic!^^')
+    print("Friendship is magic!^^")

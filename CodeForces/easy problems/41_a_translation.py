@@ -4,6 +4,6 @@ s = input()
 t = input()
 
 if s == t[::-1]:
-    print('YES')
+    print("YES")
 else:
-    print('NO')
+    print("NO")

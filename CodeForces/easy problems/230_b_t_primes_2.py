@@ -22,10 +22,10 @@ def is_prime(n):
 
 def solve(n):
     sq = int(sqrt(n))
-    if (sq ** 2 != n):
+    if sq ** 2 != n:
         return False
 
-    if (is_prime(sq)):
+    if is_prime(sq):
         return True
     else:
         return False
@@ -33,6 +33,6 @@ def solve(n):
 
 for number in numbers:
     if solve(number):
-        print('YES')
+        print("YES")
     else:
-        print('NO')
+        print("NO")

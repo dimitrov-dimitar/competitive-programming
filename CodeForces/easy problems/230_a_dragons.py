@@ -16,7 +16,7 @@ for row in range(n - 1):
     next_row = dragons[row + 1]
     if current_row[0] == next_row[0]:
         if current_row[1] < next_row[1]:
-            dragons[row], dragons[row + 1] = dragons[row + 1], dragons[row] 
+            dragons[row], dragons[row + 1] = dragons[row + 1], dragons[row]
         else:
             continue
 
@@ -29,9 +29,9 @@ for row in dragons:
         s += row[1]
 
     else:
-        print('NO')
+        print("NO")
         bool_var = False
         break
 
 if bool_var:
-    print('YES')
+    print("YES")

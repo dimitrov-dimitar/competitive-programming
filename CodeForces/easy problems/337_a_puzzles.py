@@ -11,7 +11,7 @@ if n == m:
     print(min_pieces)
 else:
     for _ in range(m - n + 1):
-        difference = pieces[n-1] - pieces[0]
+        difference = pieces[n - 1] - pieces[0]
         if difference < min_pieces:
             min_pieces = difference
         pieces.pop(0)

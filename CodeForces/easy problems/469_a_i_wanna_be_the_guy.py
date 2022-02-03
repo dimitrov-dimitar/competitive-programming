@@ -12,6 +12,6 @@ if 0 in concat_list:
     concat_list.remove(0)
 
 if concat_list == input_list:
-    print('I become the guy.')
+    print("I become the guy.")
 else:
-    print('Oh, my keyboard!')
+    print("Oh, my keyboard!")

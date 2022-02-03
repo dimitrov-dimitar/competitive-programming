@@ -12,6 +12,6 @@ for x in range(n):
 
     number = names.count(text)
     if number == 1:
-        print('OK')
+        print("OK")
     else:
         print(text + str(number - 1))

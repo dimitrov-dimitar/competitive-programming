@@ -12,4 +12,4 @@ if result < 2:
 else:
     result /= 2
 
-print(min_num, int(result), end=' ')
+print(min_num, int(result), end=" ")

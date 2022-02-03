@@ -3,12 +3,12 @@
 text = input()
 
 vowels = ["A", "O", "Y", "E", "U", "I"]
-new_text = ''
+new_text = ""
 
 for char in text:
     if char.upper() in vowels:
-        new_text += ''
+        new_text += ""
     else:
-        new_text += '.' + char.lower()
+        new_text += "." + char.lower()
 
 print(new_text)

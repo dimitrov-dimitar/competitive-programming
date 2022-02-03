@@ -5,6 +5,6 @@ cordinators = [int(x) for x in input().split()]
 
 
 if sum(cordinators) > 0:
-    print('HARD')
+    print("HARD")
 else:
-    print('EASY')
+    print("EASY")

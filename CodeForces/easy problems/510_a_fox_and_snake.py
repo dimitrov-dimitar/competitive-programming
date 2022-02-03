@@ -6,10 +6,10 @@ counter = 0
 
 for row in range(1, n + 1):
     if row % 2 == 1:
-        print(m * '#')
+        print(m * "#")
     else:
         counter += 1
         if counter % 2 == 1:
-            print((m - 1) * '.' + '#')
+            print((m - 1) * "." + "#")
         else:
-            print('#' + (m - 1) * '.')
+            print("#" + (m - 1) * ".")

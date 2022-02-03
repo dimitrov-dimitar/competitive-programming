@@ -34,14 +34,14 @@ elif three < one:
     taxi += three
     if two % 2 == 0:
         if reminder % 4 == 0:
-            taxi += (reminder / 4)
+            taxi += reminder / 4
         else:
             taxi += (reminder // 4) + 1
     else:
         if reminder > 2:
             reminder -= 2
             if reminder % 4 == 0:
-                taxi += (reminder / 4)
+                taxi += reminder / 4
             else:
                 taxi += (reminder // 4) + 1
 

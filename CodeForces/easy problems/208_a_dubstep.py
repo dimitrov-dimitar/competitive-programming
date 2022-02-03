@@ -3,6 +3,6 @@
 text = input()
 
 # if 'WUB' in text:
-text = text.replace('WUB', ' ').lstrip()
+text = text.replace("WUB", " ").lstrip()
 
 print(text)

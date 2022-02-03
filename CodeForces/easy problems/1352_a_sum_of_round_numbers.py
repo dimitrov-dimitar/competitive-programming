@@ -13,9 +13,9 @@ for _ in range(t):
         num_len = len(str(number))
         for ch in str(number):
             num_len -= 1
-            if ch != '0':
+            if ch != "0":
                 num_list.append(int(ch) * 10 ** num_len)
         print(len(num_list))
         for num in num_list:
-            print(num, end=' ')
+            print(num, end=" ")
     num_list = []

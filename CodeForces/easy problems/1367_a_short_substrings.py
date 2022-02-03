@@ -13,6 +13,5 @@ for _ in range(t):
         for n in range(0, len(b), 2):
             list_a.append(b[n])
         list_a.append(b[-1])
-    print(''.join(list_a))
+    print("".join(list_a))
     list_a = []
-
