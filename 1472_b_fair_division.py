@@ -2,6 +2,8 @@
 
 t = int(input())
 
+# to be refactoried
+
 for _ in range(t):
     list_1 = []
     list_2 = []
