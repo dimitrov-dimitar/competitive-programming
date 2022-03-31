@@ -7,7 +7,7 @@ state_var = False
 
 for _ in range(n):
     a, b = [int(x) for x in input().split()]
-    if a < b:
+    if a != b:
         state_var = True
 
 if state_var:
