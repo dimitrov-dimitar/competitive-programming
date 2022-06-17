@@ -10,6 +10,8 @@ Competitive programming problems
     - [A2OJ Ladder - under 1300](https://a2oj.com/Ladder11.html)
     - Easy problems (bellow 1500 ratings)
 
+- [LeetCode](https://leetcode.com)
+
 - [Softuniada](https://judge.softuni.org/Contests/#!/List/ByCategory/14/Softuniada)
 
 - algorithms
