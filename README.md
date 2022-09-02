@@ -7,8 +7,10 @@ Competitive programming problems
     <details>6/25<summary>2020</summary></details>
 
 - [CodeForces](https://codeforces.com)
-    - [A2OJ Ladder - under 1300](https://a2oj.com/Ladder11.html)
-    - Easy problems (bellow 1500 ratings)
+
+  - [A2OJ Ladder - under 1300](https://a2oj.com/Ladder11.html)
+  - Easy problems (bellow 1500 ratings)
+  - Medium problems (over 1500 ratings)
 
 - [LeetCode](https://leetcode.com)
 
