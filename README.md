@@ -9,7 +9,7 @@ Competitive programming problems
 - [CodeForces](https://codeforces.com)
 
   - [A2OJ Ladder - under 1300](https://a2oj.com/Ladder11.html)
-  - Easy problems (bellow 1500 ratings)
+  - Easy problems (up to 1499 ratings)
   - Medium problems (over 1500 ratings)
 
 - [LeetCode](https://leetcode.com)
