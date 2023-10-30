@@ -1,11 +1,12 @@
 import string
+from collections import Counter
 
 # Part One
 
 matrix = []
 counter = 0
 
-with open("input") as f:
+with open("input_test") as f:
     for row in f:
         matrix.append(row.strip())
 
@@ -26,3 +27,26 @@ for row in matrix:
             break
 
 print(counter)
+
+# Part Two
+
+counter = 0
+counter_group = 0
+first_group = ""
+first_group_arr = []
+
+for row in matrix:
+    if counter_group == 3:
+        x = Counter(first_group)
+        print(Counter(first_group_arr[0]))
+        print(Counter(first_group_arr[1]))
+        print(Counter(first_group_arr[2]))
+        # for i in Counter(first_group):
+        #     print(i)
+        first_group = ""
+        first_group_arr = []
+        counter_group = 0
+
+    first_group += row
+    first_group_arr.append(row)
+    counter_group += 1
